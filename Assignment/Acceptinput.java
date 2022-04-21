@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Acceptinput
 {
-public static vooid main(string args[])
+public static void main(string args[])
 {
 Scanner a=new Scanner(System.in);
 System.out.println("enter the value:");
