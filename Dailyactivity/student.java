@@ -1,29 +1,14 @@
-class student
+class college
 {
-int rollno;
-String sname;
-int mark;
-student(int r,String s)
-{
-rollno=r;
-sname=s;
+String name="APOLLO";
 }
-student(int r,String s,int m)
+class student extends college
 {
-rollno=r;
-sname=s;
-mark=m;
-}
-void disp()
-{
-System.out.println(rollno +" "+sname+" "+mark);
-}
+int rollno=1;
 public static void main(String args[])
 {
-student stu=new student(1,"preetha");
-student stu1=new student(2,"praba",100);
-stu.disp();
-stu1.disp();
+student s=new student();
+System.out.println("the name of college:"+s.name);
+System.out.println("the rollno is:"+s.rollno);
 }
 }
-
