@@ -1,0 +1,23 @@
+public class Testexception2 {
+	public static void main(String[] args) {
+		try
+		{
+			int i=0/10;
+			System.out.println("enter the block ...");
+		}
+	catch(ArithmeticException a)
+		{
+		System.out.println("excute...");
+		
+		}
+		finally
+		{
+			System.out.println("execute finally the block ...");
+	
+
+	}
+	}
+
+
+
+}
