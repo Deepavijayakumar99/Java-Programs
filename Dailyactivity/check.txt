@@ -1,0 +1,28 @@
+class check
+ {
+	 void disp()
+	 {
+		 System.out.println("parent calss gets excuted:");
+	 }
+	
+}
+ class Method extends check
+ {
+	 void disp()
+	 {
+		 System.out.println("child calss gets excuted:");
+	 }
+ }
+ 
+ 
+ 
+class Testfinalvar extends Method
+{
+	public static void main(String[] args)
+	{
+		Method v=new Method();
+		v.disp();
+
+	}
+
+}
