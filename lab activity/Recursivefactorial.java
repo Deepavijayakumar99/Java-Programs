@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
+
 public class Recursivefactorial {
 	
 	static int fact(int a, int b)
