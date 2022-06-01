@@ -1,3 +1,5 @@
+WRITE A PROGRAM BY USING THREAD METHOD :
+
 public class Newthread implements Runnable
 {
 public void run()
