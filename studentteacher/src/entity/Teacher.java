@@ -1,3 +1,4 @@
+//program to check relation between student teacher
 package entity;
 
 public class Teacher {
