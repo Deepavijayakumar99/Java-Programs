@@ -1,3 +1,4 @@
+//write a program of arraylist to accept the data from user in the form of integer
 package executor;
 
 import java.util.Arrays;
