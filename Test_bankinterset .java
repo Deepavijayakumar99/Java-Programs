@@ -1,3 +1,4 @@
+// write a program to area of interset by accepting principle amount,duration.
 package executor;
 
 import java.util.Scanner;
